@@ -1,4 +1,6 @@
-// @import 'reset';
+@import 'reset';
+@import 'vari';
+
 body {
 	background: hotpink;
 
@@ -11,7 +13,7 @@ body {
 
 		h1 {
 			font: bold 50px/1 'arial';
-			color: hotpink;
+			color: var(--color1);
 			margin-bottom: 40px;
 		}
 		p {
@@ -21,27 +23,28 @@ body {
 			display: inline-block;
 			border: 1px solid red;
 			padding: 8px 30px;
-			background: hotpink;
+			background: var(--color1);
 			font: bold 16px/1 'arial';
 			color: #fff;
 		}
 	}
 }
-
+//데스크탑 레이아웃을 모바일 버전으로 반응형 처리할때 주의점
+//모바일 디바이스는 폭이 워낙 다양하기 때문에 폭을 무조건 퍼센트처리
 @media screen and (max-width: 990px) {
 	body {
-		background: aqua;
+		background: var(--color2);
 
 		section {
-			width: 80px;
+			width: 80%;
 			h1 {
-				color: aqua;
+				color: var(--color2);
 			}
 			p {
 				margin-bottom: 30px;
 			}
 			a {
-				background: aqua;
+				background: var(--color2);
 			}
 		}
 	}
@@ -49,17 +52,17 @@ body {
 
 @media screen and (max-width: 599px) {
 	body {
-		background: orange;
+		background: var(--color3);
 
 		section {
 			h1 {
-				color: orange;
+				color: var(--color3);
 			}
 			p {
 				margin-bottom: 30px;
 			}
 			a {
-				background: orange;
+				background: var(--color3);
 			}
 		}
 	}
