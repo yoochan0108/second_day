@@ -25,4 +25,36 @@ body section a {
   color: #fff;
 }
 
+@media screen and (max-width: 990px) {
+  body {
+    background: aqua;
+  }
+  body section {
+    width: 80px;
+  }
+  body section h1 {
+    color: aqua;
+  }
+  body section p {
+    margin-bottom: 30px;
+  }
+  body section a {
+    background: aqua;
+  }
+}
+@media screen and (max-width: 599px) {
+  body {
+    background: orange;
+  }
+  body section h1 {
+    color: orange;
+  }
+  body section p {
+    margin-bottom: 30px;
+  }
+  body section a {
+    background: orange;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -27,3 +27,40 @@ body {
 		}
 	}
 }
+
+@media screen and (max-width: 990px) {
+	body {
+		background: aqua;
+
+		section {
+			width: 80px;
+			h1 {
+				color: aqua;
+			}
+			p {
+				margin-bottom: 30px;
+			}
+			a {
+				background: aqua;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 599px) {
+	body {
+		background: orange;
+
+		section {
+			h1 {
+				color: orange;
+			}
+			p {
+				margin-bottom: 30px;
+			}
+			a {
+				background: orange;
+			}
+		}
+	}
+}
