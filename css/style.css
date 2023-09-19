@@ -1,60 +1,60 @@
 body {
-  background: hotpink;
+	background: hotpink;
 }
 body section {
-  width: 600px;
-  padding: 5px;
-  background: #fff;
-  margin: 100px auto;
-  text-align: center;
+	width: 600px;
+	padding: 5px;
+	background: #fff;
+	margin: 100px auto;
+	text-align: center;
 }
 body section h1 {
-  font: bold 50px/1 "arial";
-  color: hotpink;
-  margin-bottom: 40px;
+	font: bold 50px/1 'arial';
+	color: hotpink;
+	margin-bottom: 40px;
 }
 body section p {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 body section a {
-  display: inline-block;
-  border: 1px solid red;
-  padding: 8px 30px;
-  background: hotpink;
-  font: bold 16px/1 "arial";
-  color: #fff;
+	display: inline-block;
+	border: 1px solid red;
+	padding: 8px 30px;
+	background: hotpink;
+	font: bold 16px/1 'arial';
+	color: #fff;
 }
 
 @media screen and (max-width: 990px) {
-  body {
-    background: aqua;
-  }
-  body section {
-    width: 80px;
-  }
-  body section h1 {
-    color: aqua;
-  }
-  body section p {
-    margin-bottom: 30px;
-  }
-  body section a {
-    background: aqua;
-  }
+	body {
+		background: aqua;
+	}
+	body section {
+		width: 80%;
+	}
+	body section h1 {
+		color: aqua;
+	}
+	body section p {
+		margin-bottom: 30px;
+	}
+	body section a {
+		background: aqua;
+	}
 }
 @media screen and (max-width: 599px) {
-  body {
-    background: orange;
-  }
-  body section h1 {
-    color: orange;
-  }
-  body section p {
-    margin-bottom: 30px;
-  }
-  body section a {
-    background: orange;
-  }
+	body {
+		background: orange;
+	}
+	body section h1 {
+		color: orange;
+	}
+	body section p {
+		margin-bottom: 30px;
+	}
+	body section a {
+		background: orange;
+	}
 }
 
 /*# sourceMappingURL=style.css.map */
